@@ -1,0 +1,215 @@
+/* 
+################    1.RESPONSIVE FOR MOBILE PSD     ###############
+*/
+@media (max-width: 640px) {
+    html {
+        font-size: 50%;
+    }
+    .home-menu {
+        display: none;
+    }
+    .search-bar {
+        display: none;
+    }
+    .header {
+        padding: 10rem 0;
+    }
+    .header__main {
+        margin-bottom: 0;
+        position: relative;
+        z-index: 9;
+    }
+    .watermark {
+        bottom: 0;
+    }
+    .flex--column {
+        flex-direction: column;
+    }
+    .banner__description-card {
+        width: 100%;
+    }
+    .refer__hero-img {
+        display: none;
+    }
+    .about {
+        height: auto;
+    }
+    .about__content {
+        width: 100%;
+        position: relative;
+    }
+    .about__content p:nth-child(2) {
+        display: none;
+    }
+    .footer__contact h3 {
+        text-align: left;
+    }
+    .footer .container .row .footer__contact p {
+        text-align: left;
+    }
+    .jobs__img {
+        display: none;
+    }
+    .navbar-main .container .row .logo {
+        width:60%;
+        transform: translateY(0);
+    }
+    .nowrap {
+        flex-wrap: nowrap;
+    }
+    .nav {
+        display: none;
+    }
+    .mobile-menu {
+        display: block;
+    }
+    .banner__description-card {
+        height: auto;
+    }
+    .banner__description-card h3 {
+        font-size: 3.5rem;
+    }
+    .banner__description-card p {
+        font-size: 2.8rem;
+    }
+    .banner__btn {
+        margin-top: 4rem;
+        position: relative;
+        bottom: 0;
+        display: inline-block;
+        font-size: 1.8rem;
+    }
+    .jobs__card {
+        height: auto;
+        padding: 3.5rem 4rem 5rem;
+    }
+    .jobs__category {
+        font-size: 2rem;
+    }
+    .jobs__title {
+        font-size: 4rem;
+    }
+    .jobs__type {
+        font-size: 2.5rem;
+    }
+    .jobs__description {
+        font-size: 2.5rem;
+    }
+    .jobs__btn {
+        font-size: 2.4rem;
+    }
+    .owl-theme .owl-nav.disabled+.owl-dots {
+        display: none;
+    }
+    .about__content h1 {
+        font-size: 6rem;
+    }
+    .about__content p {
+        font-size: 2.5rem;
+    }
+    .btn__about {
+        display: inline-block;
+    }
+    .refer h2 {
+        font-size: 5rem;
+    }
+    .refer p {
+        font-size: 2rem;
+    }
+    .refer .btn--default {
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+    .footer__contact h3 {
+        font-size: 3rem;
+    }
+    .footer__logo {
+        display: none;
+    }
+    .author {
+        margin-left: 0;
+        margin-top: 3rem;
+    }
+    .footer__contact {
+        display: flex;
+    }
+    .footer__contact--2 {
+        margin-top: 3rem;
+    }
+    .footer__contact i {
+        display: inline-block;
+    }
+    .footer__contact i.none {
+        display: inline-block;
+    }
+    .footer__address i {
+        display: none;
+    }
+    .footer--mt-6 {
+        margin-top: 6rem;
+    }
+    .footer .container .row .social {
+        left: 7rem;
+        top: -135%;
+        transform: translate(-15px, -10px)
+    }
+    
+}
+/* 
+################    RESPONSIVE FOR BIG TAB OR ABOVE     ###############
+*/
+@media (max-width: 992px) {
+    .home-menu {
+        display: none;
+    }
+    .header__main {margin-bottom: 0;}
+    .search-bar {display: none;}
+    .refer__hero-img {margin-top: 4rem;}
+    .flex--column {flex-direction: column;}
+    .banner__description-card {
+        width: 100%;
+        height: auto;
+    }
+    .banner__btn {
+        display: inline-block;
+        position: relative;
+        margin-top: 3rem;
+    }
+    .banner__description-card--3 p {width: 50%;}
+    .nav {
+        padding: 0;
+    }
+    .nav__item .btn--default {
+        font-size: 1rem;
+        height: 4rem;
+        padding: 1rem 2rem;
+    }
+    .footer__logo {width: 55%;}
+    .footer .container .row .footer__contact p {text-align: left;}
+    .footer__contact h3 {text-align: left;}
+    .footer__contact--2 {margin: 4rem 0;}
+    .author {margin-left: 0;}
+    .social {
+        left: 15px; 
+        transform: translate(0px, 4rem);
+    }
+}
+/* 
+################    RESPONSIVE FOR TABLET     ###############
+*/
+@media (max-width: 768px) {
+    .mobile-menu {
+        display: block;
+        position: absolute;
+    bottom: 2rem;
+    right: 15px;
+    }
+    .nav {display: none;}
+    .logo {width: 35%;}
+    .about {height: auto;}
+    .about__content {
+        width: 100%;
+    position: relative;
+    }
+    
+}

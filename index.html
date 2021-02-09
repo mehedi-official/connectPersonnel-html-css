@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="fonts/Proxima Nova Bold.otf">
+    <link rel="stylesheet" href="fonts/proximanovalight.ttf">
+    <link rel="stylesheet" href="fonts/ProximaNovaRegular.ttf">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Third party style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+    <!-- My style -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+    <title>Connect Personnel | Homepage</title>
+</head>
+<body>
+    <!-- 
+        ########################   TOP NAVBAR    #######################
+     -->
+    <nav class="navbar-main">
+        <div class="container">
+            <div class="row nowrap">
+                <div class="col-md-3">
+                    <div class="logo">
+                        <img src="img/logo/logo.png" alt="Logo">
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="mobile-menu">
+                        <i class="fa fa-reorder mobile-btn" id="btn-dropdown-1"></i>
+                        <i class="fa fa-search mobile-btn ml-3"></i>  
+                    </div>
+                    <ul class="nav">
+                        <li class="nav__item"><a href="" class="btn--default">Connect Personnel Home</a></li>
+                        <li class="nav__item"><a href="" class="btn--default"><img class="white" src="img/icon/timesheet-icon.png" alt="timesheet-icon"> Timesheets</a></li>
+                        <li class="nav__item relative">
+                            <a class="btn--default" id="btn-dropdown" ><img class="white" src="img/icon/search-icon.png" alt="search icon"> Jobs</a>
+                            <ul id="dropdown-list" class="dropdown">
+                                <div class="search-field">
+                                    <input type="text" placeholder="Keywords">
+                                </div>
+                                <div class="search-field">
+                                    <select name="industry" id=""><option value="">Industry</option></select>
+                                </div>
+                                <div class="search-field">
+                                    <select name="Location" id=""><option value="">Location</option></select>
+                                </div>
+                                <li><a href="" class="btn--search mt-1">Search Jobs</a></li>
+                            </ul>
+                            
+                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="toggle__menu">
+                <h1>this is for test</h1>
+            </div>
+        </div>
+    </nav>
+    <!-- 
+        ########################   HOME MENU    #######################
+     -->
+    <nav class="home-menu"> 
+        <div class="container">
+            <div class="flex">
+                <div class="menu-item"><a href="" class="btn btn--light-green">Medical</a></div>
+                <div class="menu-item"><a href="" class="btn btn--light-blue">Engineering/Projects/Operations</a></div>
+                <div class="menu-item"><a href="" class="btn btn--egypt-blue">Consulting</a></div>
+            </div>
+        </div>
+    </nav>
+    <!-- 
+        ########################   HEADER PART    #######################
+     -->
+    <header class="header">
+        <div class="container">
+            <h1 class="header__main">Find the right <strong>connect</strong>ion.</h1>
+            <form action="" class="search-bar">
+                    <input class="search-bar__keywords" type="text" placeholder="Keywords">
+                    <select class="search-bar__select" value="Industry">
+                        <option value="">Industry</option>
+                        <option value="">Industry 1</option>
+                        <option value="">Industry 2</option>
+                    </select>
+                    <select class="search-bar__select" value="Location">
+                        <option value="">Location</option>
+                    </select>
+                    <a href="" class="header__btn">Search Jobs</a>
+            </form>
+            
+        </div>
+        <div class="watermark">
+            <img src="img/stock photos/Watermark.png" alt="Watermark">
+        </div>
+    </header>
+    <!-- 
+        ########################   BANNER SECTION    #######################
+     -->
+    <section class="banner">
+        <div class="flex">
+            <div class="banner__img">
+                <img src="img/stock photos/medical.jpg" alt="">
+            </div>
+            <div class="banner__img">
+                <img src="img/stock photos/engineer.jpg" alt="">
+            </div>
+            <div class="banner__img">
+                <img src="img/stock photos/meeting.jpg" alt="">
+            </div>
+        </div>
+        <div class="flex flex--column">
+            <div class="banner__description-card banner__description-card--1">
+                <h3>H3 Medical</h3>
+                <p>Junior Doctors</p>
+                <p> Middle Grade Doctors</p>
+                <p>Specialist Doctors</p>
+                <p>Medical Directors</p>
+                <a class="banner__btn" href="">Go to medical</a>
+            </div>
+            <div class="banner__description-card banner__description-card--2">
+                <h3>ENGINEERING / PROJECTS / OPERATIONS</h3>
+                <p>Design / Construction / Manufacturing /</p>
+                <p>Oil & Gas / Mining / Technology /</p>
+                <p>Renewable Energy / Utilities / </p>
+                <p>Infrastructure / Transport</p>
+                <a class="banner__btn" href="">GO TO ENGINEERING / PROJECTS / OPS</a>
+            </div>
+            <div class="banner__description-card banner__description-card--3">
+                <h3>Consulting</h3>
+                <p>Enabling organisations to link people’s roles and company
+                 learning & development strategy to critical business objectives.</p>
+                <a class="banner__btn" href="">GO TO CONSULTING</a>
+            </div>
+        </div>
+    </section>
+    <!-- 
+        ########################   JOBS SECTION    #######################
+     -->
+    <section class="jobs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="jobs__heading">Latest Roles</h3>
+                </div>
+            </div>
+            <div class="jobs__watermark">
+                <img src="img/stock photos/watermark-2.png" alt="Watermark 2" class="jobs__img">
+            </div>
+            <div class="owl-carousel owl-theme">
+                <div class="items jobs__card">
+                    <h5 class="jobs__category">Medical</h5>
+                    <h4 class="jobs__title">H4 Locum RMO General Medicine</h4>
+                    <h6 class="jobs__type">1-10-20  |  Manning, NSW |  Temp</h6>
+                    <p class="jobs__description">General Medicine RMO for Mid North NSW.
+                         This is a great opportunity for someone looking to get a decent block of dates in one location.</p>
+                    <a href="" class="jobs__btn">View Job</a>
+                    <a href="" class="jobs__btn">Medical Jobs</a>
+                </div>
+                <div class="jobs__card">
+                    <h5 class="jobs__category">PROJECTS + OPERATIONS</h5>
+                    <h4 class="jobs__title">Mechanical/Piping Drafter - Autodesk</h4>
+                    <h6 class="jobs__type">30-9-20  |  Brisbane  |  Permanent</h6>
+                    <p class="jobs__description">Currently there is a three (3) month contract opportunity for an
+                         experienced Mechanical/Piping Designer to work in their Brisbane CBD office.</p>
+                    <a href="" class="jobs__btn">View Job</a>
+                    <a href="" class="jobs__btn">PROJECTS + OPERATIONS JOBS</a>
+                </div>
+                <div class="jobs__card">
+                    <h5 class="jobs__category">Medical</h5>
+                    <h4 class="jobs__title">General Medicine Registrar</h4>
+                    <h6 class="jobs__type">22-9-20  |  Lismore  |  Temp</h6>
+                    <p class="jobs__description">Connect Personnel Medical is a boutique medical recruitment agency.
+                         With friendly service and extensive experience, we make sure you get the most from your new job.</p>
+                    <a href="" class="jobs__btn">View Job</a>
+                    <a href="" class="jobs__btn">Medical Jobs</a>
+                </div>
+                <div class="items jobs__card">
+                    <h5 class="jobs__category">Medical</h5>
+                    <h4 class="jobs__title">H4 Locum RMO General Medicine</h4>
+                    <h6 class="jobs__type">1-10-20  |  Manning, NSW |  Temp</h6>
+                    <p class="jobs__description">General Medicine RMO for Mid North NSW.
+                         This is a great opportunity for someone looking to get a decent block of dates in one location.</p>
+                    <a href="" class="jobs__btn">View Job</a>
+                    <a href="" class="jobs__btn">Medical Jobs</a>
+                </div>
+                <div class="jobs__card">
+                    <h5 class="jobs__category">PROJECTS + OPERATIONS</h5>
+                    <h4 class="jobs__title">Mechanical/Piping Drafter - Autodesk</h4>
+                    <h6 class="jobs__type">30-9-20  |  Brisbane  |  Permanent</h6>
+                    <p class="jobs__description">Currently there is a three (3) month contract opportunity for an
+                         experienced Mechanical/Piping Designer to work in their Brisbane CBD office.</p>
+                    <a href="" class="jobs__btn">View Job</a>
+                    <a href="" class="jobs__btn">PROJECTS + OPERATIONS JOBS</a>
+                </div>
+                <div class="jobs__card">
+                    <h5 class="jobs__category">Medical</h5>
+                    <h4 class="jobs__title">General Medicine Registrar</h4>
+                    <h6 class="jobs__type">22-9-20  |  Lismore  |  Temp</h6>
+                    <p class="jobs__description">Connect Personnel Medical is a boutique medical recruitment agency.
+                         With friendly service and extensive experience, we make sure you get the most from your new job.</p>
+                    <a href="" class="jobs__btn">View Job</a>
+                    <a href="" class="jobs__btn">Medical Jobs</a>
+                </div>
+                <div class="items jobs__card">
+                    <h5 class="jobs__category">Medical</h5>
+                    <h4 class="jobs__title">H4 Locum RMO General Medicine</h4>
+                    <h6 class="jobs__type">1-10-20  |  Manning, NSW |  Temp</h6>
+                    <p class="jobs__description">General Medicine RMO for Mid North NSW.
+                         This is a great opportunity for someone looking to get a decent block of dates in one location.</p>
+                    <a href="" class="jobs__btn">View Job</a>
+                    <a href="" class="jobs__btn">Medical Jobs</a>
+                </div>
+                <div class="jobs__card">
+                    <h5 class="jobs__category">PROJECTS + OPERATIONS</h5>
+                    <h4 class="jobs__title">Mechanical/Piping Drafter - Autodesk</h4>
+                    <h6 class="jobs__type">30-9-20  |  Brisbane  |  Permanent</h6>
+                    <p class="jobs__description">Currently there is a three (3) month contract opportunity for an
+                         experienced Mechanical/Piping Designer to work in their Brisbane CBD office.</p>
+                    <a href="" class="jobs__btn">View Job</a>
+                    <a href="" class="jobs__btn">PROJECTS + OPERATIONS JOBS</a>
+                </div>
+                <div class="jobs__card">
+                    <h5 class="jobs__category">Medical</h5>
+                    <h4 class="jobs__title">General Medicine Registrar</h4>
+                    <h6 class="jobs__type">22-9-20  |  Lismore  |  Temp</h6>
+                    <p class="jobs__description">Connect Personnel Medical is a boutique medical recruitment agency.
+                         With friendly service and extensive experience, we make sure you get the most from your new job.</p>
+                    <a href="" class="jobs__btn">View Job</a>
+                    <a href="" class="jobs__btn">Medical Jobs</a>
+                </div>
+                <div class="items jobs__card">
+                    <h5 class="jobs__category">Medical</h5>
+                    <h4 class="jobs__title">H4 Locum RMO General Medicine</h4>
+                    <h6 class="jobs__type">1-10-20  |  Manning, NSW |  Temp</h6>
+                    <p class="jobs__description">General Medicine RMO for Mid North NSW.
+                         This is a great opportunity for someone looking to get a decent block of dates in one location.</p>
+                    <a href="" class="jobs__btn">View Job</a>
+                    <a href="" class="jobs__btn">Medical Jobs</a>
+                </div>
+                <div class="jobs__card">
+                    <h5 class="jobs__category">PROJECTS + OPERATIONS</h5>
+                    <h4 class="jobs__title">Mechanical/Piping Drafter - Autodesk</h4>
+                    <h6 class="jobs__type">30-9-20  |  Brisbane  |  Permanent</h6>
+                    <p class="jobs__description">Currently there is a three (3) month contract opportunity for an
+                         experienced Mechanical/Piping Designer to work in their Brisbane CBD office.</p>
+                    <a href="" class="jobs__btn">View Job</a>
+                    <a href="" class="jobs__btn">PROJECTS + OPERATIONS JOBS</a>
+                </div>
+                <div class="jobs__card">
+                    <h5 class="jobs__category">Medical</h5>
+                    <h4 class="jobs__title">General Medicine Registrar</h4>
+                    <h6 class="jobs__type">22-9-20  |  Lismore  |  Temp</h6>
+                    <p class="jobs__description">Connect Personnel Medical is a boutique medical recruitment agency.
+                         With friendly service and extensive experience, we make sure you get the most from your new job.</p>
+                    <a href="" class="jobs__btn">View Job</a>
+                    <a href="" class="jobs__btn">Medical Jobs</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- 
+        ########################   ABOUT SECTION    #######################
+     -->
+    <section class="about">
+        <div class="about__bg">
+            <img src="img/stock photos/about-bg.jpg" alt="About">
+        </div>
+        <div class="about__content">
+            <h1>Connect Group of 
+                Companies</h1>
+            <p>Connect Personnel was established in Newcastle in 1994 and has
+                 been the basis of what has now grown to be the Connect Group
+                  of Companies. Since our inception we have built a strong
+                   reputation on reliability, honesty and being able to solve
+                    the most difficult recruitment requests.</p>
+            <p>Connect boasts a strong record of attracting the very best local
+                 and international candidates whilst our strategies for employee
+                  retention have been embraced by our clients for many years and
+                   have been instrumental in securing long standing relationships.</p>
+            <a href="" class="btn__about">More</a>
+        </div>
+    </section>
+    <!-- 
+        ########################   REFER A FRIEND    #######################
+     -->
+    <section class="refer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Refer a Friend</h2>
+                    <p>Successful referrals are rewarded with your choice of a gift
+                         voucher, donation to charity or community event sponsorship
+                          to the value of $750.</p>
+                    <p>If you have a friend or colleague interested in taking up a
+                         locum/Contractor/Permanent job in Australia or New Zealand,
+                          and who is not currently working with Connect Personnel Medical
+                           or Connect Personnel, we’d like to give a little something if return.</p>
+                    <a href="" class="btn--default">Refer a Friend</a>
+                </div>
+                <div class="col-lg-6">
+                    <div class="refer__hero-img">
+                        <img src="img/stock photos/refer.jpg" alt="Refer a Friend for this site">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 
+        ########################   FOOTER    #######################
+     -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer__logo">
+                        <img src="img/logo/footer-logo.png" alt="Footer Logo">
+                    </div>
+                    
+                </div>
+                <div class="col-lg-5">
+                    <div class="footer__contact">
+                        <i class="fa fa-phone none"></i>
+                        <div class="footer__address">
+                            <h3><i class="fa fa-phone"></i> Call Medical</h3>
+                        <p class="no-margin">Suite 1A Level 2802 Pacific Highway</p>
+                        <p>Gordon NSW 2072</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer__contact footer__contact--2">
+                        <i class="fa fa-phone none"></i>
+                        <div class="footer__address">
+                            <h3><i class="fa fa-phone"></i> Call Engneering/Project/Operation</h3>
+                        <p>Kings Row Office Park Building 2 Level 5</p>
+                        <p>50 McDougall Street Milton Qld 4064</p>
+                        
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="footer--mt-6">
+                        <p class="footer__copyright">&copy Copyright 2021  CONNECT PERSONNEL. All rights reserved.</p>
+                        <a class="footer__link" href="">Your Privacy</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="author">
+                        <p>SITE BY RECSITE</p>
+                        <img src="img/icon/author.png" alt="Author ">
+                        <div class="social">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <i class="fa fa-linkedin"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+                    
+            </div>
+        </div>
+    </footer>
+    <!-- 
+        ########################   JAVASCRIPT     #######################
+     -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    autoplay: true,
+    autoplayTimeout: 2500,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        700:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+    </script>
+</body>
+</html>
